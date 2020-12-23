@@ -1,8 +1,6 @@
 package nl.rekijan.notekeeper
 
 /**
- * //TODO write description of this class
- *
  * @author Erik-Jan Krielen ej.krielen@gmail.com
  * @since 23-12-2020
  */
