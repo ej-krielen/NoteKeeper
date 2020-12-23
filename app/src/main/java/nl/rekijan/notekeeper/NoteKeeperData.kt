@@ -5,11 +5,10 @@ package nl.rekijan.notekeeper
  * @since 23-12-2020
  */
 
-class CourseInfo(val courseId: String, val title: String) {
+data class CourseInfo(val courseId: String, val title: String) {
     override fun toString(): String {
         return title
     }
 }
 
-class NoteInfo(var course: CourseInfo, var title: String, var text: String)
-
+data class NoteInfo(var course: CourseInfo, var title: String, var text: String)
